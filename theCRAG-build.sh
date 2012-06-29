@@ -6,7 +6,7 @@
 # To build the custom thCrag version:
 
 cd build
-./build.py thecrag
+./build.py  thecrag
 
 cp OpenLayers.js ../../../../src/
 
