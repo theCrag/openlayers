@@ -1,3 +1,21 @@
+# theCrag flavoured OpenLayers
+
+This fork of OpenLayers adds a tiny build profile for theCrag, but also adds Orthogonal snapping to the polyon editor
+
+ie if you are editing a polygon, and dragging a vertex around, it will snap to nearby lines and vertexes but also
+snap in the X, Y, or both dimensions to points in the same polygon. In order words it's really easy to make perfect squares 
+and rectangles or more complex shapes with horizontal and vertical edges.
+
+See:
+
+https://github.com/brendanheywood/openlayers/blob/master/lib/OpenLayers/Control/SnappingOrth.js
+
+and compare to:
+
+https://github.com/brendanheywood/openlayers/blob/master/lib/OpenLayers/Control/Snapping.js
+
+
+
 # OpenLayers
 
 Copyright (c) 2005-2012 OpenLayers Contributors. See authors.txt for
